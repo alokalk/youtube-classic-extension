@@ -2,9 +2,11 @@
   "name": "YouTube Classic",
   "version": "1.2",
   "description": "Restore Classic YouTube!",
+  "author": "thisdotvoid",
   "permissions": ["webRequest", "webRequestBlocking", "*://www.youtube.com/*"],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+	"persistent": true
   },
   "icons": {
     "16": "images/yt_classic16.png",
